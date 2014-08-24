@@ -1,1 +1,4 @@
 node_modules
+src/public/lib/impact
+src/public/lib/weltmeister
+src/public/weltmeister.html

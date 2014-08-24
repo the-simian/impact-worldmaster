@@ -3,7 +3,14 @@ node-impact
 
 #Initial Setup
 -----------
-You'll need to provide the following:
+
+To be clear, this node module is actually a full boilerplate.
+First, after running npm install `impact-worldmaster`, you'll now have your node_modules, and within the impact worldmaster folder. 
+
+The files in this? that's your project root. You can copy these and put them elsewhere, or just work right out of this folder. Nontheless, this is your project root for the game.
+
+
+Now, You'll need to provide the following:
 
 - src/public/lib/impact
 
@@ -30,6 +37,10 @@ Make sure you're calling the right node routs for everything now:
 	'glob': '/worldmaster/glob'
 }
 ```			
+
+At the root of the project, you can run ```npm start``` and it should start running on he default port.
+
+/weltmesiter.html will take you, as expected to the world editor. Have fun.
 
 
 

@@ -19,10 +19,10 @@ Now, You'll need to provide the following:
 1. src/public/lib/impact
 	This is the actual impact game folder, that you must have purchased 
 
-- src/public/lib/weltmeister
+2. src/public/lib/weltmeister
 	Same with this - its the weltmeister folder, just paste it right in, you should own this.
 
-- src/public/weltmeister.html
+3. src/public/weltmeister.html
 	And the weltmeister point of entry. Add this. You can locally access it by going to `localhost:port/weltmeister` once you are running.
 
 If necessary, run npm install.	

@@ -1,5 +1,5 @@
 #node-impact
-===========
+
 
 ##Initial Setup
 -----------

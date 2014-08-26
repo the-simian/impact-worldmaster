@@ -88,20 +88,22 @@ function listen(server, opts) {
 			dir.substring(0, dir.lastIndexOf('/')) :
 			false;
 
-		dir = (dir[dir.length - 1] === '/') ?
+		dir = (dir.charAt(0) === '/') ?
 			dir :
 			dir += '/';
 
-		dirpath = path.normalize(root + dir);
+		dirpath = path.normalize(root + '\\' + dir);
 
 		function walkDirectory(err, files) {
 			for (var i in files) {
+
 				file = files[i];
 				listItem = dir + file;
 				stats = fs.statSync(path.join(dirpath, file));
 
 				if (stats.isDirectory()) {
 					result.dirs.push(listItem);
+                
 				} else if (stats.isFile()) {
 					result.files.push(listItem);
 				}

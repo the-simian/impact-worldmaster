@@ -11,7 +11,7 @@
 			"email": "harlinjesse@gmail.com"
     }
   ],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "./src/server",
 	"scripts": {
 		"start": "nodemon ./src/server/impact.js"

@@ -88,7 +88,7 @@ function listen(server, opts) {
 			dir.substring(0, dir.lastIndexOf('/')) :
 			false;
 
-		dir = (dir.charAt(0) === '/') ?
+		dir = (dir[dir.length-1] === '/') ?
 			dir :
 			dir += '/';
 

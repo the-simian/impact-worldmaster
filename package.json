@@ -30,7 +30,7 @@
 		"express": "^4.0.0",
 		"glob": ">= 2.0.9",
 		"method-override": "^3.0.0",
-		"body-parser": "^1.0.2"
+		"body-parser": "^1.19.0"
 	},
 	"engines": {
 		"node": ">= 0.4",

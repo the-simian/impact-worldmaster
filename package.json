@@ -27,7 +27,7 @@
 		"url": "https://github.com/JesseHarlin/impact-worldmaster"
 	},
 	"dependencies": {
-		"express": "^4.0.0",
+		"express": "^4.17.0",
 		"glob": ">= 2.0.9",
 		"method-override": "^3.0.0",
 		"body-parser": "^1.0.2"

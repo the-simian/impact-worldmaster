@@ -37,7 +37,7 @@
 		"npm": ">= 1"
 	},
 	"devDependencies": {
-		"nodemon": "~1.15.0"
+		"nodemon": "~1.19.1"
 	},
 	"homepage": ""
 }
